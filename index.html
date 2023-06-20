@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Simple JavaScript</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    
+    <body>
+        <h3>Mini Calculadora</h3>
+        <div class="calculadora">
+            <input type="number" name="operador1" id="op1">
+            <select id="select"> 
+                <option value="*">* (multiplicar) </option>
+                <option value="/">/ (dividir)</option>
+                <option value="+">+ (sumar)</option>
+                <option value="-">- (restar)</option>
+            </select>
+            <input type="number" name="operador2" id="op2">
+            <button onclick="calcular()">Calcular</button>
+            <div id="resultado" class="resultado">
+            </div>
+        </div>
+        
+    </body>
+</html>
+    
